@@ -190,7 +190,43 @@ ul.right li a {
     }
     div.buttons button {
     	padding: 5px 12px;
-    }
+    }*/
 
+/* media queries */
+/*when sreen is smaller than 900px add these rulres*/
+
+@media screen and (max-width: 594px){
+        ul .right li a {
+       	display: none;
+       }
 }
-    
+@media screen and (max-width: 474px){
+	
+		.profile_img {
+			display: none;
+	}
+     * {
+   	font-size: 12px;
+   }
+   ul.nav{
+   	margin-right: 0;
+   }
+   ul.nav li{
+   	margin-right: 0;
+  }
+}
+@media screen and (max-width: 750px){
+     .searchBox input {
+     	width: 70%;
+     }
+   }
+@media screen and (max-width: 400px){
+	ul .left{
+		width: 80%;
+	}
+}
+@media screen and (max-width: 350px){
+	ul.left{
+		width: 90%
+	}
+}
